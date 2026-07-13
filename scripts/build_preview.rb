@@ -8,6 +8,7 @@ FileUtils.mkdir_p(OUT)
 FileUtils.cp_r(File.join(ROOT, "assets"), File.join(OUT, "assets"))
 pubs = YAML.load_file(File.join(ROOT, "_data/publications.yml"))
 team = YAML.load_file(File.join(ROOT, "_data/team.yml"))
+home_data = YAML.load_file(File.join(ROOT, "_data/home.yml"))
 
 def strip_front(text)
   text.sub(/\A---.*?---\s*/m, "")
@@ -20,13 +21,19 @@ def header
 end
 def wrap(title, body)
   <<~HTML
-  <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>#{title} · SIL</title><script>try{if(localStorage.getItem('sil-theme')!=='light')document.documentElement.dataset.theme='dark'}catch(e){document.documentElement.dataset.theme='dark'}</script><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/publications.css"><link rel="stylesheet" href="/assets/css/theme.css"></head><body>
+  <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>#{title} · SIL</title><script>try{if(localStorage.getItem('sil-theme')!=='light')document.documentElement.dataset.theme='dark'}catch(e){document.documentElement.dataset.theme='dark'}</script><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/publications.css"><link rel="stylesheet" href="/assets/css/theme.css"><link rel="stylesheet" href="/assets/css/home-images.css"></head><body>
   #{header}<main>#{body}</main>
   <footer class="site-footer wrap"><div><b>SIL</b><span>Spatial Intelligence Lab</span></div><p>Machines that understand space.</p><div><a href="mailto:francoisbernar.rameau@stonybrook.edu">Contact ↗</a><small>SUNY Korea · Stony Brook University</small></div></footer><script src="/assets/js/theme.js"></script></body></html>
   HTML
 end
 
 home = links(strip_front(File.read(File.join(ROOT, "index.html"))))
+home.gsub!(/\{\{\s*site\.data\.home\.hero\.image\s*\|\s*relative_url\s*\}\}/, home_data['hero']['image'])
+home.gsub!(/\{\{\s*site\.data\.home\.hero\.image_alt\s*\}\}/, home_data['hero']['image_alt'])
+home_data['research'].each_with_index do |item, index|
+  home.gsub!(/\{\{\s*site\.data\.home\.research\[#{index}\]\.image\s*\|\s*relative_url\s*\}\}/, item['image'])
+  home.gsub!(/\{\{\s*site\.data\.home\.research\[#{index}\]\.image_alt\s*\}\}/, item['image_alt'])
+end
 cards = pubs.first(3).map do |p|
   image = p['image'] ? %(<figure><img src="#{p['image']}" alt="#{p['image_alt'] || p['title']}"></figure>) : ""
   %(<a href="#{p['link']}" class="#{p['image'] ? 'has-paper-image' : ''}"><div class="paper-meta"><span>#{p['type']}<b>#{p['venue']} · #{p['year']}</b></span>#{image}</div><div><h3>#{p['title']}</h3><p>#{p['authors']}</p></div><i>↗</i></a>)
