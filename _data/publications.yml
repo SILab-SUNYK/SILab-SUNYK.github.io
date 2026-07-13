@@ -1,32 +1,404 @@
 - year: 2026
   type: Conference
-  venue: ECCV
-  title: "Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression"
-  authors: "O. Nasypanyi, J. Cho, U. Ozbulak, B. Kang, F. Rameau"
-  link: https://frameau.xyz
-  image: /assets/images/publications/eccv-2026.gif
-  image_alt: "Scene-coordinate regression privacy reconstruction"
-- year: 2026
-  type: Conference
   venue: ICPR
-  title: "Dual-Foundation Models for Unsupervised Domain Adaptation"
-  authors: "Y. Cheon, A. Balasubramanian, F. Rameau"
-  link: https://frameau.xyz
-  image:
-  image_alt:
-- year: 2026
-  type: Journal
-  venue: TMLR
-  title: "Token-Based Detection of Spurious Correlations in Vision Transformers"
-  authors: "S. Kang, E. T. Anzaku, W. De Neve, A. Van Messem, J. Vankerschaver, F. Rameau, U. Ozbulak"
-  link: https://frameau.xyz
-  image:
-  image_alt:
+  title: Dual-Foundation Models for Unsupervised Domain Adaptation
+  authors: Y. Cheon, A. Balasubramanian, F. Rameau
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:a0OBvERweLwC
 - year: 2026
   type: Conference
   venue: 3DV
-  title: "Pixel-Accurate Epipolar Guided Matching"
-  authors: "O. Nasypanyi, F. Rameau"
-  link: https://frameau.xyz
-  image:
-  image_alt:
+  title: Pixel-Accurate Epipolar Guided Matching
+  authors: O. Nasypanyi, F. Rameau
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:yD5IFk8b50cC
+- year: 2026
+  type: Conference
+  venue: ECCV
+  title: 'Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression'
+  authors: O. Nasypanyi, J. Cho, U. Ozbulak, B. Kang, F. Rameau
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:pyW8ca7W8N0C
+  image: "/assets/images/publications/eccv-2026.gif"
+  image_alt: Scene-coordinate regression privacy reconstruction
+- year: 2026
+  type: Journal
+  venue: TMLR
+  title: Token-Based Detection of Spurious Correlations in Vision Transformers
+  authors: S. Kang, E. T. Anzaku, W. De Neve, A. Van Messem, J. Vankerschaver, F.
+    Rameau, U. Ozbulak
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:D03iK_w7-QYC
+- year: 2025
+  type: Conference
+  venue: 2025 IEEE Intelligent Vehicles Symposium (IV), 1849-1855
+  title: Event-aware distilled detr for object detection in an automotive context
+  authors: D Rossi, P Vasseur, F Morbidi, C Demonceaux, F Rameau
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:dfsIfKJdRG4C
+- year: 2025
+  type: Conference
+  venue: International Conference on Neural Information Processing, 276-289
+  title: 'Revisiting 16-bit neural network training: A practical approach for resource-limited
+    learning'
+  authors: J Yun, S Choi, F Rameau, B Kang, Z Fu
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:3s1wT3WcHBgC
+- year: 2025
+  type: Journal
+  venue: IEEE Transactions on Intelligent Transportation Systems 26 (2), 1889-1899
+  title: 'Instagram: Instance-level graph modeling for vectorized hd map learning'
+  authors: J Shin, H Jeong, F Rameau, D Kum
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:lSLTfruPkqcC
+- year: 2025
+  type: Preprint
+  venue: arXiv preprint arXiv:2509.04009
+  title: Detecting Regional Spurious Correlations in Vision Transformers via Token
+    Discarding
+  authors: S Kang, ET Anzaku, W De Neve, A Van Messem, J Vankerschaver, ...
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:cFHS6HbyZ2cC
+- year: 2024
+  type: Journal
+  venue: IEEE Robotics and Automation Letters 9 (5), 4710-4717
+  title: Multi-modal place recognition via vectorized HD maps and images fusion for
+    autonomous driving
+  authors: H Jeong, J Shin, F Rameau, D Kum
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:ZHo1McVdvXMC
+- year: 2024
+  type: Preprint
+  venue: arXiv preprint arXiv:2406.18898
+  title: '360 in the Wild: Dataset for Depth Prediction and View Synthesis'
+  authors: K Park, F Rameau, J Park, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:rO6llkc54NcC
+- year: 2024
+  type: Workshop
+  venue: Deep Breast Workshop on AI and Imaging for Diagnostic and Treatment …
+  title: Exploring patient data requirements in training effective ai models for mri-based
+    breast cancer classification
+  authors: S Kang, W De Neve, F Rameau, U Ozbulak
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:4OULZ7Gr8RgC
+- year: 2023
+  type: Journal
+  venue: IEEE Transactions on Pattern Analysis and Machine Intelligence 45 (9), 10603
+    …
+  title: A perceptual measure for deep single image camera and lens calibration
+  authors: Y Hold-Geoffroy, D Piché-Meunier, K Sunkavalli, JC Bazin, F Rameau, ...
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:ldfaerwXgEUC
+- year: 2023
+  type: Journal
+  venue: Machine Vision and Applications 34 (6), 125
+  title: 'CCTV-Calib: a toolbox to calibrate surveillance cameras around the globe'
+  authors: F Rameau, J Choe, F Pan, S Lee, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:pqnbT2bcN3wC
+- year: 2023
+  type: Preprint
+  venue: arXiv preprint arXiv:2306.06211
+  title: 'A survey on segment anything model (sam): Vision foundation model meets
+    prompt engineering'
+  authors: C Zhang, J Cho, FD Puspitasari, S Zheng, C Li, Y Qiao, T Kang, X Shan,
+    ...
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:2P1L_qKh6hAC
+- year: 2023
+  type: Preprint
+  venue: arXiv preprint arXiv:2312.15242
+  title: 'CaLDiff: Camera localization in NeRF via pose diffusion'
+  authors: R Shrestha, B Koju, A Bhusal, DP Paudel, F Rameau
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:SeFeTyx0c_EC
+- year: 2023
+  type: Preprint
+  venue: arXiv preprint arXiv:2305.06131
+  title: 'Generative ai meets 3d: A survey on text-to-3d in aigc era'
+  authors: C Li, C Zhang, J Cho, A Waghwase, LH Lee, F Rameau, Y Yang, SH Bae, ...
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:70eg2SAEIzsC
+- year: 2022
+  type: Conference
+  venue: European conference on computer vision, 620-640
+  title: 'Pointmixer: Mlp-mixer for point cloud understanding'
+  authors: J Choe, C Park, F Rameau, J Park, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:BqipwSGYUEgC
+- year: 2022
+  type: Journal
+  venue: Computer Vision and Image Understanding 217, 103353
+  title: 'MC-Calib: A generic and robust calibration toolbox for multi-camera systems'
+  authors: F Rameau, J Park, O Bailo, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:O3NaXMp0MMsC
+- year: 2022
+  type: Journal
+  venue: International Journal of Computer Vision 130 (2), 384-404
+  title: Real-time multi-car localization and see-through system
+  authors: F Rameau, O Bailo, J Park, K Joo, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:GnPB-g6toBAC
+- year: 2022
+  type: Journal
+  venue: International Journal of Computer Vision 130 (9), 2265-2285
+  title: 'Self-supervised monocular depth and motion learning in dynamic scenes: Semantic
+    prior to rescue'
+  authors: S Lee, F Rameau, S Im, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:J_g5lzvAfSwC
+- year: 2022
+  type: Preprint
+  venue: arXiv preprint arXiv:2203.12848
+  title: Keypoints Tracking via Transformer Networks
+  authors: O Nasypanyi, F Rameau
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:ns9cj8rnVeAC
+- year: 2022
+  type: Preprint
+  venue: arXiv preprint arXiv:2206.00181
+  title: 'Labeling where adapting fails: Cross-domain semantic segmentation with point
+    supervision via active selection'
+  authors: F Pan, F Rameau, J Kim, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:RGFaLdJalmkC
+- year: 2021
+  type: Conference
+  venue: Proceedings of the IEEE/CVF International Conference on Computer Vision …
+  title: Attentive and contrastive learning for joint depth and motion field estimation
+  authors: S Lee, F Rameau, F Pan, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:blknAaTinKkC
+- year: 2021
+  type: Conference
+  venue: ICLR
+  title: Deep point cloud reconstruction
+  authors: J Choe, B Joung, F Rameau, J Park, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:YFjsv_pBGBYC
+- year: 2021
+  type: Conference
+  venue: Proceedings of the AAAI Conference on Artificial Intelligence 35 (2), 901-910
+  title: Motion-blurred video interpolation and extrapolation
+  authors: DM Argaw, J Kim, F Rameau, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:HDshCWvjkbEC
+- year: 2021
+  type: Conference
+  venue: Proceedings of the AAAI conference on Artificial Intelligence 35 (2), 891-900
+  title: Optical flow estimation from a single motion-blurred image
+  authors: DM Argaw, J Kim, F Rameau, JW Cho, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:_Qo2XoVZTnwC
+- year: 2021
+  type: Conference
+  venue: Proceedings of the IEEE/CVF winter conference on applications of computer
+    …
+  title: Resnet or densenet? introducing dense shortcuts to resnet
+  authors: C Zhang, P Benz, DM Argaw, S Lee, J Kim, F Rameau, JC Bazin, ...
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:hFOr9nPyWt4C
+- year: 2021
+  type: Conference
+  venue: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern …
+  title: Restoration of video frames from a single blurred image with motion understanding
+  authors: DM Argaw, J Kim, F Rameau, C Zhang, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:ZeXyd9-uunAC
+- year: 2021
+  type: Conference
+  venue: 2021 IEEE International Conference on Robotics and Automation (ICRA), 12918
+    …
+  title: Stereo object matching network
+  authors: J Choe, K Joo, F Rameau, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:bEWYMUwI8FkC
+- year: 2021
+  type: Conference
+  venue: Proceedings of the IEEE/CVF international conference on computer vision …
+  title: 'Volumefusion: Deep depth fusion for 3d scene reconstruction'
+  authors: J Choe, S Im, F Rameau, M Kang, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:JV2RwH3_ST0C
+- year: 2021
+  type: Journal
+  venue: IEEE transactions on pattern analysis and machine intelligence 45 (6), 6766-6782
+  title: A large-scale virtual dataset and egocentric localization for disaster responses
+  authors: HG Jeon, S Im, BU Lee, F Rameau, DG Choi, J Oh, IS Kweon, M Hebert
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:M3NEmzRMIkIC
+- year: 2021
+  type: Patent
+  venue: US Patent 10,977,831
+  title: Camera calibration method and apparatus based on deep learning
+  authors: JC Bazin, O BOGDAN, V ECKSTEIN, F RAMEAU
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:QIV2ME_5wuYC
+- year: 2020
+  type: Book Chapter
+  venue: 'Computer Vision: A Reference Guide, 1--9'
+  title: Deep Learning Based 3D Vision
+  authors: IS Kweon, F Rameau
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:mB3voiENLucC
+- year: 2020
+  type: Conference
+  venue: Winter Conference on Applications of Computer Vision (WACV)
+  title: 'DeepPTZ: Deep Self-Calibration for PTZ Cameras'
+  authors: C Zhang, F Rameau, J Kim, DM Argaw, JC Bazin, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:9ZlFYXVOiuMC
+- year: 2020
+  type: Conference
+  venue: 2020 IEEE International Conference on Robotics and Automation (ICRA), 1077-1083
+  title: Linear rgb-d slam for atlanta world
+  authors: K Joo, TH Oh, F Rameau, JC Bazin, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:L8Ckcad2t8MC
+- year: 2020
+  type: Conference
+  venue: Computer Vision and Pattern Recognition (CVPR)
+  title: Unsupervised Intra-domain Adaptation for Semantic Segmentation through Self-Supervision
+  authors: F Pan, I Shin, F Rameau, S Lee, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:7PzlFSSx8tAC
+- year: 2019
+  type: Conference
+  venue: IEEE/RSJ Int’l Conf. on Intelligent Robots and Systems (IROS). IEEE
+  title: Camera exposure control for robust robot vision with noise-aware image quality
+    assessment
+  authors: U Shin, J Park, G Shim, F Rameau, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:_kc_bZDykSQC
+- year: 2019
+  type: Conference
+  venue: British Machine Vision Conference (BMVC)
+  title: Revisiting Residual Networks with Nonlinear Shortcuts
+  authors: C Zhang, F Rameau, S Lee, J Kim, P Benz, DM Argaw, JC Bazin, ...
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:4DMP91E08xMC
+- year: 2019
+  type: Conference
+  venue: 'Conference: Robotics: Science and Systems (RSS)'
+  title: 'Segment2Regress: Monocular 3D Vehicle Localization in Two Stages'
+  authors: J Choe, K Joo, F Rameau, G Shim, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:YOwf2qJgpHMC
+- year: 2019
+  type: Conference
+  venue: 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    …
+  title: Vehicular multi-camera sensor system for automated visual inspection of electric
+    power distribution equipment
+  authors: J Park, U Shin, G Shim, K Joo, F Rameau, J Kim, DG Choi, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:4TOpqqG69KYC
+- year: 2019
+  type: Conference
+  venue: Proceedings of the 27th ACM international conference on multimedia, 882-889
+  title: 'Video Retargeting: trade-off between content preservation and spatio-temporal
+    consistency'
+  authors: D Cho, Y Jung, F Rameau, D Kim, S Woo, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:Wp0gIr-vW9MC
+- year: 2019
+  type: Journal
+  venue: IEEE/ACM Transactions on Audio, Speech, and Language Processing 27 (11 …
+  title: Latent question interpretation through variational adaptation
+  authors: T Parshakova, F Rameau, A Serdega, IS Kweon, DS Kim
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:qxL8FJ1GzNcC
+- year: 2018
+  type: Conference
+  venue: Proceedings of the 15th ACM SIGGRAPH European Conference on Visual Media
+    …
+  title: 'DeepCalib: A deep learning approach for automatic intrinsic calibration
+    of wide field-of-view cameras'
+  authors: O Bogdan, V Eckstein, F Rameau, JC Bazin
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:ULOm3_A8WrAC
+- year: 2018
+  type: Journal
+  venue: Pattern Recognition Letters 106, 53-60
+  title: Efficient adaptive non-maximal suppression algorithms for homogeneous spatial
+    keypoint distribution
+  authors: O Bailo, F Rameau, K Joo, J Park, O Bogdan, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:KlAtU1dfN6UC
+- year: 2018
+  type: Workshop
+  venue: International Workshop on Frontiers of Computer Vision
+  title: Real-time Demonstration of Collaborative Localization of a Swarm of Connected
+    Vehicles
+  authors: F Rameau, O Bailo, J Park, K Joo, J Choe, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:Zph67rFs4hoC
+- year: 2017
+  type: Conference
+  venue: The 7th Pacific Rim Symposium on Image and Video Technology (PSIVT)
+  title: Intelligent Assistant for People with Low Vision Abilities
+  authors: O Bogdan, O Yurchenko, O Bailo, F Rameau, D Yoo, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:8k81kl-MbHgC
+- year: 2017
+  type: Conference
+  venue: Proceedings of the IEEE international conference on computer vision, 2167-2176
+  title: Pixel-level matching for video object segmentation using convolutional neural
+    networks
+  authors: J Shin Yoon, F Rameau, J Kim, S Lee, S Shin, I So Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:0EnyYjriUFMC
+- year: 2017
+  type: Conference
+  venue: 2017 IEEE winter conference on applications of computer vision (WACV), 760-768
+  title: Robust road marking detection and recognition using density-based grouping
+    and machine learning techniques
+  authors: O Bailo, S Lee, F Rameau, JS Yoon, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:hqOjcs7Dif8C
+- year: 2017
+  type: Preprint
+  venue: arXiv preprint arXiv:1710.07434
+  title: Light-weight place recognition and loop detection using road markings
+  authors: O Bailo, F Rameau, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:3fE2CSJIrl8C
+- year: 2016
+  type: Conference
+  venue: European Conference on Computer Vision, 209-222
+  title: A real-time vehicular vision system to seamlessly see-through cars
+  authors: F Rameau, H Ha, K Joo, J Choi, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:UebtZRa9Y70C
+- year: 2016
+  type: Conference
+  venue: European Conference on Computer Vision, 156-172
+  title: All-around depth from small motion with a spherical panoramic camera
+  authors: S Im, H Ha, F Rameau, HG Jeon, G Choe, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:roLk4NBRz8UC
+- year: 2016
+  type: Conference
+  venue: 2016 IEEE Intelligent Vehicles Symposium (IV), 978-985
+  title: Thermal-infrared based drivable region detection
+  authors: JS Yoon, K Park, S Hwang, N Kim, Y Choi, F Rameau, I so Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:_FxGoFyzp5QC
+- year: 2016
+  type: Journal
+  venue: IEEE transactions on visualization and computer graphics 22 (11), 2395-2404
+  title: A real-time augmented reality system to see-through cars
+  authors: F Rameau, H Ha, K Joo, J Choi, K Park, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:LkGwnXOMwfcC
+- year: 2015
+  type: Conference
+  venue: Image and Video Technology, 447-460
+  title: 6-DOF direct homography tracking with extended Kalman filter
+  authors: H Ha, F Rameau, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:WF5omc3nYNoC
+- year: 2015
+  type: Conference
+  venue: 2015 12th International Conference on Ubiquitous Robots and Ambient …
+  title: Fused robot pose estimation using embedded and external cameras
+  authors: K Park, H Ha, F Rameau, IS Kweon
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:YsMSGLbcyi4C
+- year: 2015
+  type: Conference
+  venue: 2015 12th International Conference on Ubiquitous Robots and Ambient …
+  title: Structure from motion using a hybrid stereo-vision system
+  authors: F Rameau, D Sidibé, C Demonceaux, D Fofi
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:eQOLeE2rZwMC
+- year: 2014
+  type: Conference
+  venue: International Conference on Computer Vision Theory and Applications
+  title: Control of a PTZ camera in a hybrid vision system
+  authors: F Rameau, C Demonceaux, D Sidibé, D Fofi
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:qjMakFHDy7sC
+- year: 2014
+  type: Thesis
+  venue: Université de Bourgogne
+  title: Système de vision hybride à fovéation pour la vidéo-surveillance et la navigation
+    robotique
+  authors: F Rameau
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:Tyk-4Ss8FVUC
+- year: 2013
+  type: Workshop
+  venue: Orasis, Congrès des jeunes chercheurs en vision par ordinateur
+  title: Étude d'un système de stéréo-vision hybride
+  authors: F Rameau, C Demonceaux, DD Sidibé, D Fofi
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:2osOgNQ5qMEC
+- year: 2012
+  type: Conference
+  venue: Asian Conference on Computer Vision, 297-308
+  title: Self-calibration of a PTZ camera using new LMI constraints
+  authors: F Rameau, A Habed, C Demonceaux, D Sidibé, D Fofi
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:9yKSN-GCB0IC
+- year: 2012
+  type: Workshop
+  venue: RFIA 2012 (Reconnaissance des Formes et Intelligence Artificielle), 978-2
+    …
+  title: Une approche performante de suivi visuel pour les caméras catadioptriques
+  authors: F Rameau, D Sidibé, C Demonceaux, D Fofi
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:d1gkVwhDpl0C
+- year: 2011
+  type: Journal
+  venue: Electronics letters 47 (21), 1183-1184
+  title: 'Visual tracking with omnidirectional cameras: an efficient approach'
+  authors: F Rameau, DD Sidibé, C Demonceaux, D Fofi
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:u5HHmVD_uO8C
+- year: 2011
+  type: Workshop
+  venue: 2011 IEEE International Conference on Computer Vision Workshops (ICCV …
+  title: Tracking moving objects with a catadioptric sensor using particle filter
+  authors: F Rameau, D Sidibé, C Demonceaux, D Fofi
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:u-x6o8ySG0sC

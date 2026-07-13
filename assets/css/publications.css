@@ -5,6 +5,7 @@
 .paper-meta > span b { display: block; color: var(--orange); margin-top: 8px; }
 .paper-meta figure { width: 100%; margin: 0; overflow: hidden; background: #dfe4de; aspect-ratio: 3 / 2; }
 .paper-meta figure img { width: 100%; height: 100%; display: block; object-fit: cover; }
+.filter-row { flex-wrap: wrap; }
 .paper-list > a > div h3, .archive-paper > div h3 { margin-top: 0; }
 @media (max-width: 700px) {
   .paper-list > a, .paper-list > a.has-paper-image, .archive-paper, .archive-paper.has-paper-image { grid-template-columns: 110px 1fr 20px; }
