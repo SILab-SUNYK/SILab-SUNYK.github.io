@@ -2,23 +2,79 @@
   display_date: "19 JUN 2026"
   category: Publication
   title: "Privacy-preserving visual localization accepted to ECCV 2026"
-  details: "Our work investigates privacy leakage in scene-coordinate regression and shows what visual information can be reconstructed from learned model weights. Congratulations to Oleksii Nasypanyi and Jaemin Cho."
-  image: /assets/images/publications/eccv-2026.gif
-  image_alt: "Scene-coordinate regression privacy reconstruction"
-  link: https://frameau.xyz
+  details: "Our work examining privacy leakage in scene-coordinate regression has been accepted to ECCV 2026. Congratulations to Oleksii Nasypanyi and Jaemin Cho."
+  image: /assets/images/news/eccv-2026.png
+  image_alt: "ECCV 2026 acceptance announcement"
+  link: https://frameau.xyz/
 - date: "2026-05-20"
   display_date: "20 MAY 2026"
   category: Recognition
   title: "Outstanding Reviewer at CVPR 2026"
   details: "Prof. François Rameau was recognized among the Outstanding Reviewers for CVPR 2026 for rigorous and constructive service to the computer-vision community."
-  image:
-  image_alt:
-  link: https://frameau.xyz
+  image: /assets/images/news/cvpr-reviewer-2026.png
+  image_alt: "CVPR 2026 Outstanding Reviewer recognition"
+  link: https://frameau.xyz/
+- date: "2026-04-14"
+  display_date: "14 APR 2026"
+  category: Talk
+  title: "Invited talk at the SUNY AI Symposium"
+  details: "Prof. Rameau presented an overview of the AI research landscape in Korea at the SUNY AI Symposium in Stony Brook and joined discussions with researchers and participants."
+  image: /assets/images/news/suny-ai-symposium-2026.png
+  image_alt: "SUNY AI Symposium invited talk"
+  link: https://frameau.xyz/
 - date: "2026-04-01"
   display_date: "01 APR 2026"
   category: Publication
   title: "Domain adaptation work accepted to ICPR 2026"
-  details: "Our work on dual-foundation models studies how complementary visual representations can improve unsupervised adaptation to new domains."
-  image:
-  image_alt:
-  link: https://frameau.xyz
+  details: "Our work on dual-foundation models for unsupervised domain adaptation has been accepted to ICPR 2026."
+  image: /assets/images/news/icpr-2026.svg
+  image_alt: "ICPR 2026 acceptance announcement"
+  link: https://frameau.xyz/
+- date: "2026-03-29"
+  display_date: "29 MAR 2026"
+  category: Publication
+  title: "Spurious-correlation work accepted to TMLR"
+  details: "Our token-based approach for detecting spurious correlations in vision transformers has been accepted to Transactions on Machine Learning Research, led in collaboration with the Ghent University team."
+  image: /assets/images/news/tmlr-2026.png
+  image_alt: "TMLR publication acceptance announcement"
+  link: https://frameau.xyz/
+- date: "2026-01-08"
+  display_date: "08 JAN 2026"
+  category: Education
+  title: "Principal Chair at ANAIS 2025"
+  details: "The Annual Nepal AI School welcomed 225 participants from 19 countries for an intensive 11-day program with 23 speakers. Prof. Rameau served as Principal Chair with Ashutosh Modi and Vijay Prakash Dwivedi."
+  image: /assets/images/news/anais-2025.png
+  image_alt: "Annual Nepal AI School 2025"
+  link: https://frameau.xyz/
+- date: "2026-01-05"
+  display_date: "05 JAN 2026"
+  category: Panel
+  title: "Panel discussion on AI risk in Kathmandu"
+  details: "Prof. Rameau joined banking leaders, academic experts, and public officials to discuss AI risks, institutional readiness, and leadership challenges in the financial sector."
+  image: /assets/images/news/ai-risk-panel-2026.jpg
+  image_alt: "Panel discussion on AI risk in Kathmandu"
+  link: https://frameau.xyz/
+- date: "2025-11-28"
+  display_date: "28 NOV 2025"
+  category: Award
+  title: "Best Paper Award at ICONIP 2025"
+  details: "Our work on practical 16-bit neural-network training received the Best Paper Award at ICONIP 2025."
+  image: /assets/images/news/iconip-best-paper-2025.png
+  image_alt: "ICONIP 2025 Best Paper Award"
+  link: https://frameau.xyz/
+- date: "2025-11-20"
+  display_date: "20 NOV 2025"
+  category: Recognition
+  title: "SUNY Korea Presidential Award"
+  details: "Jaemin Cho and Oleksii Nasypanyi received the SUNY Korea Presidential Award for their research on privacy attacks in scene-coordinate regression."
+  image: /assets/images/news/presidential-award-2025.jpg
+  image_alt: "SUNY Korea Presidential Award"
+  link: https://frameau.xyz/
+- date: "2025-11-16"
+  display_date: "16 NOV 2025"
+  category: Publication
+  title: "Epipolar-guided matching accepted to 3DV 2026"
+  details: "Our work on pixel-accurate epipolar-guided matching has been accepted to the International Conference on 3D Vision."
+  image: /assets/images/news/3dv-2026.png
+  image_alt: "3DV 2026 acceptance announcement"
+  link: https://frameau.xyz/
