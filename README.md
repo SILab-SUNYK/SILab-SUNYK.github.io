@@ -2,7 +2,7 @@
 
 A lightweight Jekyll site designed for GitHub Pages.
 
-- Edit publications in `_data/publications.yml`
+- Edit publications in `_data/publications.yml`. Add an optional `image` and `image_alt`; store thumbnails in `assets/images/publications/`.
 - Edit people in `_data/team.yml`
 - Edit homepage content in `index.html`
 
