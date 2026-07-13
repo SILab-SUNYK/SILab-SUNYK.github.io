@@ -1,0 +1,15 @@
+---
+layout: default
+title: News
+permalink: /news/
+---
+<section class="page-hero wrap"><p class="label">Updates / SIL</p><h1>News</h1><p>Publications, recognition, people, and other notes from the Spatial Intelligence Lab.</p></section>
+<section class="news-archive wrap">
+  {% for item in site.data.news %}
+  <article class="news-card">
+    <div class="news-card-meta"><time datetime="{{ item.date }}">{{ item.display_date }}</time><b>{{ item.category }}</b></div>
+    <div class="news-card-body"><h2>{{ item.title }}</h2><p>{{ item.details }}</p>{% if item.link %}<a href="{{ item.link }}">Read more ↗</a>{% endif %}</div>
+    {% if item.image %}<figure><img src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.title }}"></figure>{% endif %}
+  </article>
+  {% endfor %}
+</section>

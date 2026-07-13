@@ -24,7 +24,7 @@ def wrap(title, body)
   <<~HTML
   <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>#{title} · SIL</title><script>try{if(localStorage.getItem('sil-theme')!=='light')document.documentElement.dataset.theme='dark'}catch(e){document.documentElement.dataset.theme='dark'}</script><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/publications.css"><link rel="stylesheet" href="/assets/css/theme.css"><link rel="stylesheet" href="/assets/css/home-images.css"><link rel="stylesheet" href="/assets/css/news.css"><link rel="stylesheet" href="/assets/css/team.css"></head><body>
   #{header}<main>#{body}</main>
-  <footer class="site-footer wrap"><div><b>SIL</b><span>Spatial Intelligence Lab</span></div><p>Machines that understand space.</p><div><a href="mailto:francoisbernar.rameau@stonybrook.edu">Contact ↗</a><small>SUNY Korea · Stony Brook University</small></div></footer><script src="/assets/js/theme.js"></script></body></html>
+  <footer class="site-footer wrap"><div><b>SIL</b><span>Spatial Intelligence Lab</span></div><p>Machines that understand space.</p><div><a href="mailto:francoisbernar.rameau@stonybrook.edu">Contact ↗</a><small>SUNY Korea · Stony Brook University</small></div></footer><script src="/assets/js/theme.js"></script><script src="/assets/js/news-carousel.js"></script></body></html>
   HTML
 end
 
@@ -35,12 +35,17 @@ home_data['research'].each_with_index do |item, index|
   home.gsub!(/\{\{\s*site\.data\.home\.research\[#{index}\]\.image\s*\|\s*relative_url\s*\}\}/, item['image'])
   home.gsub!(/\{\{\s*site\.data\.home\.research\[#{index}\]\.image_alt\s*\}\}/, item['image_alt'])
 end
-news_items = news.map do |item|
-  image = item['image'] ? %(<figure><img src="#{item['image']}" alt="#{item['image_alt'] || item['title']}"></figure>) : ""
-  more = item['link'] ? %(<a href="#{item['link']}">Read more ↗</a>) : ""
-  %(<article class="news-item" tabindex="0"><div class="news-summary"><time datetime="#{item['date']}">#{item['display_date']}</time><b>#{item['category']}</b><span>#{item['title']}</span><i aria-hidden="true">＋</i></div><div class="news-reveal"><div><div class="news-detail-layout">#{image}<div><p>#{item['details']}</p>#{more}</div></div></div></div></article>)
+carousel_slides = news.first(5).each_with_index.map do |item, index|
+  image = item['image'] || home_data['hero']['image']
+  alt = item['image_alt'] || home_data['hero']['image_alt']
+  more = item['link'] ? %(<a href="#{item['link']}"#{index.zero? ? '' : ' tabindex="-1"'}>Read story ↗</a>) : ""
+  %(<article class="hero-news-slide#{index.zero? ? ' is-active' : ''}" data-news-slide aria-hidden="#{index.zero? ? 'false' : 'true'}"><img src="#{image}" alt="#{alt}"><div class="hero-news-shade"></div><div class="hero-news-content"><p><span>#{item['category']}</span><time datetime="#{item['date']}">#{item['display_date']}</time></p><h2>#{item['title']}</h2><div>#{item['details']}</div>#{more}</div></article>)
 end.join
-home.sub!(/\{% for item in site\.data\.news %\}.*?\{% endfor %\}/m, news_items)
+carousel_dots = news.first(5).each_index.map do |index|
+  %(<button type="button" data-news-dot="#{index}" aria-label="Show news item #{index + 1}" aria-pressed="#{index.zero? ? 'true' : 'false'}"></button>)
+end.join
+carousel = %(<section class="hero-news" data-news-carousel aria-label="Latest news"><div class="hero-news-slides" aria-live="polite">#{carousel_slides}</div><div class="hero-news-topline"><span>Latest from SIL</span><a href="/news/">All news ↗</a></div><div class="hero-news-controls"><button type="button" data-news-prev aria-label="Previous news item">←</button><div class="hero-news-dots" aria-label="Choose news item">#{carousel_dots}</div><button type="button" data-news-next aria-label="Next news item">→</button></div></section>)
+home.sub!(/\{% include news-carousel\.html %\}/, carousel)
 cards = pubs.first(3).map do |p|
   image = p['image'] ? %(<figure><img src="#{p['image']}" alt="#{p['image_alt'] || p['title']}"></figure>) : ""
   %(<a href="#{p['link']}" class="#{p['image'] ? 'has-paper-image' : ''}"><div class="paper-meta"><span>#{p['type']}<b>#{p['venue']} · #{p['year']}</b></span>#{image}</div><div><h3>#{p['title']}</h3><p>#{p['authors']}</p><p class="venue-full">#{p['venue_full']}</p></div><i>↗</i></a>)
@@ -79,3 +84,13 @@ end.join
 team_body.sub!(/\{% assign groups.*?\{% endfor %\}<\/section>/m, "#{groups}</section>")
 FileUtils.mkdir_p(File.join(OUT, "team"))
 File.write(File.join(OUT, "team/index.html"), wrap("Team", team_body))
+
+news_body = links(strip_front(File.read(File.join(ROOT, "news.html"))))
+news_cards = news.map do |item|
+  image = item['image'] ? %(<figure><img src="#{item['image']}" alt="#{item['image_alt'] || item['title']}"></figure>) : ""
+  more = item['link'] ? %(<a href="#{item['link']}">Read more ↗</a>) : ""
+  %(<article class="news-card"><div class="news-card-meta"><time datetime="#{item['date']}">#{item['display_date']}</time><b>#{item['category']}</b></div><div class="news-card-body"><h2>#{item['title']}</h2><p>#{item['details']}</p>#{more}</div>#{image}</article>)
+end.join
+news_body.sub!(/\{% for item in site\.data\.news %\}.*?\{% endfor %\}/m, news_cards)
+FileUtils.mkdir_p(File.join(OUT, "news"))
+File.write(File.join(OUT, "news/index.html"), wrap("News", news_body))

@@ -1,0 +1,24 @@
+<section class="hero-news" data-news-carousel aria-label="Latest news">
+  <div class="hero-news-slides" aria-live="polite">
+    {% for item in site.data.news limit:5 %}
+    {% assign fallback_image = site.data.home.hero.image %}
+    {% assign fallback_alt = site.data.home.hero.image_alt %}
+    <article class="hero-news-slide{% if forloop.first %} is-active{% endif %}" data-news-slide aria-hidden="{% if forloop.first %}false{% else %}true{% endif %}">
+      <img src="{{ item.image | default: fallback_image | relative_url }}" alt="{{ item.image_alt | default: fallback_alt }}">
+      <div class="hero-news-shade"></div>
+      <div class="hero-news-content">
+        <p><span>{{ item.category }}</span><time datetime="{{ item.date }}">{{ item.display_date }}</time></p>
+        <h2>{{ item.title }}</h2>
+        <div>{{ item.details }}</div>
+        {% if item.link %}<a href="{{ item.link }}"{% unless forloop.first %} tabindex="-1"{% endunless %}>Read story ↗</a>{% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <div class="hero-news-topline"><span>Latest from SIL</span><a href="{{ '/news/' | relative_url }}">All news ↗</a></div>
+  <div class="hero-news-controls">
+    <button type="button" data-news-prev aria-label="Previous news item">←</button>
+    <div class="hero-news-dots" aria-label="Choose news item">{% for item in site.data.news limit:5 %}<button type="button" data-news-dot="{{ forloop.index0 }}" aria-label="Show news item {{ forloop.index }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}"></button>{% endfor %}</div>
+    <button type="button" data-news-next aria-label="Next news item">→</button>
+  </div>
+</section>

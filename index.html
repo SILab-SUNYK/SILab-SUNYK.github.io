@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="hero wrap">
   <div class="hero-copy"><p class="label">Computer vision / Robotics / Machine learning</p><h1>Machines that<br>understand <i>space.</i></h1><p class="intro">We develop computer vision and robotics systems that perceive, reconstruct, and collaborate within the 3D world—from privacy-preserving localization to connected robots.</p><p class="director">Directed by <a href="https://frameau.xyz">Prof. François Rameau ↗</a></p></div>
-  <figure class="hero-image"><img src="{{ site.data.home.hero.image | relative_url }}" alt="{{ site.data.home.hero.image_alt }}"></figure>
+  {% include news-carousel.html %}
 </section>
 
 <section class="research wrap" id="research"><div class="section-head"><p class="label">01 / Research</p><h2>Three connected<br>lines of inquiry.</h2></div><div class="focus-grid">
@@ -13,5 +13,3 @@ layout: default
 </div></section>
 
 <section class="papers wrap"><div class="section-head"><p class="label">02 / Latest output</p><h2>Recent<br>publications.</h2></div><div class="paper-list">{% for paper in site.data.publications limit:3 %}<a href="{{ paper.link }}" class="{% if paper.image %}has-paper-image{% endif %}"><div class="paper-meta"><span>{{ paper.type }}<b>{{ paper.venue }} · {{ paper.year }}</b></span>{% if paper.image %}<figure><img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | default: paper.title }}"></figure>{% endif %}</div><div><h3>{{ paper.title }}</h3><p>{{ paper.authors }}</p><p class="venue-full">{{ paper.venue_full }}</p></div><i>↗</i></a>{% endfor %}<a class="view-all" href="{{ '/publications/' | relative_url }}">View the complete publication index <b>Filter by year & type ↗</b></a></div></section>
-
-<section class="updates wrap" id="news"><div class="section-head"><p class="label">03 / Updates</p><h2>From the lab.</h2></div><div class="news-list">{% for item in site.data.news %}<article class="news-item" tabindex="0"><div class="news-summary"><time datetime="{{ item.date }}">{{ item.display_date }}</time><b>{{ item.category }}</b><span>{{ item.title }}</span><i aria-hidden="true">＋</i></div><div class="news-reveal"><div><div class="news-detail-layout">{% if item.image %}<figure><img src="{{ item.image | relative_url }}" alt="{{ item.image_alt | default: item.title }}"></figure>{% endif %}<div><p>{{ item.details }}</p>{% if item.link %}<a href="{{ item.link }}">Read more ↗</a>{% endif %}</div></div></div></div></article>{% endfor %}</div></section>
