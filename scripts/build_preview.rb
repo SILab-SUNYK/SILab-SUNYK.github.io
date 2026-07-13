@@ -4,7 +4,8 @@ require "fileutils"
 ROOT = File.expand_path("..", __dir__)
 OUT = File.join(ROOT, "_site")
 FileUtils.rm_rf(OUT)
-FileUtils.cp_r(File.join(ROOT, "assets"), OUT)
+FileUtils.mkdir_p(OUT)
+FileUtils.cp_r(File.join(ROOT, "assets"), File.join(OUT, "assets"))
 pubs = YAML.load_file(File.join(ROOT, "_data/publications.yml"))
 team = YAML.load_file(File.join(ROOT, "_data/team.yml"))
 
