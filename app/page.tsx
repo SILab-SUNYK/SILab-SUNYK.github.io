@@ -16,7 +16,7 @@ export default function Home() {
       <header className="nav shell">
         <a className="brand" href="#top" aria-label="SIL home"><Mark /><span><strong>SIL</strong><small>Spatial Intelligence Lab</small></span></a>
         <nav aria-label="Main navigation">
-          <a href="#research">Research</a><a href="#publications">Publications</a><a href="#people">People</a><a href="#news">News</a>
+          <a href="#research">Research</a><Link href="/publications">Publications</Link><Link href="/team">Team</Link><a href="#news">News</a>
         </nav>
         <a className="contact-link" href={`mailto:${site.email}`}>Contact ↗</a>
       </header>
@@ -40,20 +40,21 @@ export default function Home() {
       <section className="section shell" id="research">
         <div className="section-title"><p>01 / Research areas</p><h2>Building intelligence with a sense of place.</h2></div>
         <div className="research-grid">
-          {research.map((item, i) => <article className="research-card" key={item.title}><span>0{i + 1}</span><h3>{item.title}</h3><p>{item.description}</p><small>{item.tags.join(" · ")}</small></article>)}
+          {research.map((item, i) => <article className="research-card" key={item.title}><div className={`focus-visual visual-${i + 1}`} aria-hidden="true"><i /><i /><i /><b /><b /><em /></div><span>0{i + 1}</span><h3>{item.title}</h3><p>{item.description}</p><small>{item.tags.join(" · ")}</small></article>)}
         </div>
       </section>
 
       <section className="feature" id="publications">
         <div className="feature-intro"><p className="eyebrow">02 / Selected work</p><h2>From pixels<br />to <em>places.</em></h2><p>We publish open, reproducible research at the intersection of 3D vision, learning, and robotics.</p><a href={`mailto:${site.email}`}>Collaborate with us ↗</a></div>
         <div className="publication-list">
-          {publications.map((paper, i) => <article key={paper.title}><span className="paper-index">P—0{i + 1}</span><div><small>{paper.venue} · {paper.year}</small><h3>{paper.title}</h3><p>{paper.authors}</p></div><a href={paper.link} aria-label={`Read ${paper.title}`}>↗</a></article>)}
+          {publications.slice(0,3).map((paper, i) => <article key={paper.title}><span className="paper-index">P—0{i + 1}</span><div><small>{paper.type} · {paper.venue} · {paper.year}</small><h3>{paper.title}</h3><p>{paper.authors}</p></div><a href={paper.link} aria-label={`Read ${paper.title}`}>↗</a></article>)}
+          <Link className="all-publications" href="/publications">Browse all publications <span>Year & type index ↗</span></Link>
         </div>
       </section>
 
       <section className="people shell" id="people">
         <div className="section-title"><p>03 / People</p><h2>Different disciplines.<br />One shared coordinate system.</h2></div>
-        <div className="people-copy"><p>Led by {site.director}, SIL brings together researchers in computer vision, machine learning, 3D perception, and collaborative robotics.</p><a className="button" href={site.personalWebsite}>About the director <span>↗</span></a><a className="button" href={`mailto:${site.email}`}>Join SIL <span>↗</span></a></div>
+        <div className="people-copy"><p>Led by {site.director}, SIL brings together researchers in computer vision, machine learning, 3D perception, and collaborative robotics.</p><Link className="button" href="/team">Meet the team <span>↗</span></Link><a className="button" href={`mailto:${site.email}`}>Join SIL <span>↗</span></a></div>
       </section>
 
       <section className="news shell" id="news">

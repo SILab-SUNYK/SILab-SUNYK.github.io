@@ -13,9 +13,14 @@ export const research = [
 ];
 
 export const publications = [
-  { title: "Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression", venue: "ECCV", year: "2026", authors: "O. Nasypanyi, J. Cho, U. Ozbulak, B. Kang, F. Rameau", link: "https://frameau.xyz" },
-  { title: "Dual-Foundation Models for Unsupervised Domain Adaptation", venue: "ICPR", year: "2026", authors: "Y. Cheon, A. Balasubramanian, F. Rameau", link: "https://frameau.xyz" },
-  { title: "Pixel-Accurate Epipolar Guided Matching", venue: "3DV", year: "2026", authors: "O. Nasypanyi, F. Rameau", link: "https://frameau.xyz" },
+  { title: "Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression", venue: "ECCV", year: "2026", type: "Conference", authors: "O. Nasypanyi, J. Cho, U. Ozbulak, B. Kang, F. Rameau", link: "https://frameau.xyz" },
+  { title: "Dual-Foundation Models for Unsupervised Domain Adaptation", venue: "ICPR", year: "2026", type: "Conference", authors: "Y. Cheon, A. Balasubramanian, F. Rameau", link: "https://frameau.xyz" },
+  { title: "Token-Based Detection of Spurious Correlations in Vision Transformers", venue: "TMLR", year: "2026", type: "Journal", authors: "S. Kang, E. T. Anzaku, W. De Neve, A. Van Messem, J. Vankerschaver, F. Rameau, U. Ozbulak", link: "https://frameau.xyz" },
+  { title: "Pixel-Accurate Epipolar Guided Matching", venue: "3DV", year: "2026", type: "Conference", authors: "O. Nasypanyi, F. Rameau", link: "https://frameau.xyz" },
+];
+
+export const team = [
+  { name: "Francois Rameau", role: "Professor", detail: "Lab Director · Assistant Professor, SUNY Korea", interests: "3D vision · Visual localization · Connected robotics", link: "https://frameau.xyz" },
 ];
 
 export const news = [
