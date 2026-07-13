@@ -1,0 +1,8 @@
+---
+layout: default
+title: Team
+permalink: /team/
+---
+<section class="page-hero wrap"><p class="label">People / SIL</p><h1>Team</h1><p>Researchers building machines that understand and collaborate in the spatial world.</p></section>
+<section class="team wrap">{% assign groups = "Professor,PhD Student,Master Student" | split: "," %}{% for group in groups %}<div class="team-row"><h2>{{ group }}</h2><div>{% assign members = site.data.team | where: "group", group %}{% if members.size > 0 %}{% for person in members %}<a class="person" href="{{ person.link }}"><div class="portrait"><span>FR</span><i></i><i></i></div><div><small>{{ person.role }}</small><h3>{{ person.name }}</h3><p>{{ person.interests }}</p></div><b>↗</b></a>{% endfor %}{% else %}<div class="vacancy"><span>Profiles coming soon.</span><a href="mailto:francoisbernar.rameau@stonybrook.edu">Interested in joining? ↗</a></div>{% endif %}</div></div>{% endfor %}</section>
+

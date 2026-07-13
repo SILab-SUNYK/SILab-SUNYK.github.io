@@ -1,0 +1,25 @@
+- year: 2026
+  type: Conference
+  venue: ECCV
+  title: "Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression"
+  authors: "O. Nasypanyi, J. Cho, U. Ozbulak, B. Kang, F. Rameau"
+  link: https://frameau.xyz
+- year: 2026
+  type: Conference
+  venue: ICPR
+  title: "Dual-Foundation Models for Unsupervised Domain Adaptation"
+  authors: "Y. Cheon, A. Balasubramanian, F. Rameau"
+  link: https://frameau.xyz
+- year: 2026
+  type: Journal
+  venue: TMLR
+  title: "Token-Based Detection of Spurious Correlations in Vision Transformers"
+  authors: "S. Kang, E. T. Anzaku, W. De Neve, A. Van Messem, J. Vankerschaver, F. Rameau, U. Ozbulak"
+  link: https://frameau.xyz
+- year: 2026
+  type: Conference
+  venue: 3DV
+  title: "Pixel-Accurate Epipolar Guided Matching"
+  authors: "O. Nasypanyi, F. Rameau"
+  link: https://frameau.xyz
+

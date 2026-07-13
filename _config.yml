@@ -1,0 +1,8 @@
+title: SIL — Spatial Intelligence Lab
+description: Spatial intelligence research at SUNY Korea and Stony Brook University
+url: ""
+baseurl: ""
+markdown: kramdown
+permalink: /news/:title/
+exclude: [Gemfile, Gemfile.lock, README.md]
+
