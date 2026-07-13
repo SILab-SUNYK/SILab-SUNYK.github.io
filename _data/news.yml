@@ -1,0 +1,24 @@
+- date: "2026-06-19"
+  display_date: "19 JUN 2026"
+  category: Publication
+  title: "Privacy-preserving visual localization accepted to ECCV 2026"
+  details: "Our work investigates privacy leakage in scene-coordinate regression and shows what visual information can be reconstructed from learned model weights. Congratulations to Oleksii Nasypanyi and Jaemin Cho."
+  image: /assets/images/publications/eccv-2026.gif
+  image_alt: "Scene-coordinate regression privacy reconstruction"
+  link: https://frameau.xyz
+- date: "2026-05-20"
+  display_date: "20 MAY 2026"
+  category: Recognition
+  title: "Outstanding Reviewer at CVPR 2026"
+  details: "Prof. Francois Rameau was recognized among the Outstanding Reviewers for CVPR 2026 for rigorous and constructive service to the computer-vision community."
+  image:
+  image_alt:
+  link: https://frameau.xyz
+- date: "2026-04-01"
+  display_date: "01 APR 2026"
+  category: Publication
+  title: "Domain adaptation work accepted to ICPR 2026"
+  details: "Our work on dual-foundation models studies how complementary visual representations can improve unsupervised adaptation to new domains."
+  image:
+  image_alt:
+  link: https://frameau.xyz
