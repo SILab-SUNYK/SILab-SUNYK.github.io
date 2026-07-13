@@ -22,7 +22,7 @@ def header
 end
 def wrap(title, body)
   <<~HTML
-  <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>#{title} · SIL</title><script>try{if(localStorage.getItem('sil-theme')!=='light')document.documentElement.dataset.theme='dark'}catch(e){document.documentElement.dataset.theme='dark'}</script><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/publications.css"><link rel="stylesheet" href="/assets/css/theme.css"><link rel="stylesheet" href="/assets/css/home-images.css"><link rel="stylesheet" href="/assets/css/news.css"></head><body>
+  <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>#{title} · SIL</title><script>try{if(localStorage.getItem('sil-theme')!=='light')document.documentElement.dataset.theme='dark'}catch(e){document.documentElement.dataset.theme='dark'}</script><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/publications.css"><link rel="stylesheet" href="/assets/css/theme.css"><link rel="stylesheet" href="/assets/css/home-images.css"><link rel="stylesheet" href="/assets/css/news.css"><link rel="stylesheet" href="/assets/css/team.css"></head><body>
   #{header}<main>#{body}</main>
   <footer class="site-footer wrap"><div><b>SIL</b><span>Spatial Intelligence Lab</span></div><p>Machines that understand space.</p><div><a href="mailto:francoisbernar.rameau@stonybrook.edu">Contact ↗</a><small>SUNY Korea · Stony Brook University</small></div></footer><script src="/assets/js/theme.js"></script></body></html>
   HTML
@@ -66,7 +66,13 @@ groups = ["Professor", "PhD Student", "Master Student"].map do |group|
   people = if members.empty?
     %(<div class="vacancy"><span>Profiles coming soon.</span><a href="mailto:francoisbernar.rameau@stonybrook.edu">Interested in joining? ↗</a></div>)
   else
-    members.map { |p| %(<a class="person" href="#{p['link']}"><div class="portrait"><span>FR</span><i></i><i></i></div><div><small>#{p['role']}</small><h3>#{p['name']}</h3><p>#{p['interests']}</p></div><b>↗</b></a>) }.join
+    members.map do |p|
+      portrait = p['image'] ? %(<img src="#{p['image']}" alt="#{p['image_alt'] || p['name']}">) : %(<span>FR</span><i></i><i></i>)
+      joined = p['joined'] ? " · Joined #{p['joined']}" : ""
+      name = p['link'] ? %(<a href="#{p['link']}">#{p['name']}</a>) : p['name']
+      more = p['link'] ? %(<a class="person-link" href="#{p['link']}" aria-label="Visit #{p['name']}'s website">↗</a>) : ""
+      %(<article class="person"><div class="portrait">#{portrait}</div><div><small>#{p['role']}#{joined}</small><h3>#{name}</h3><p>#{p['interests']}</p></div>#{more}</article>)
+    end.join
   end
   %(<div class="team-row"><h2>#{group}</h2><div>#{people}</div></div>)
 end.join

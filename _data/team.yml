@@ -3,3 +3,24 @@
   role: Lab Director · Assistant Professor, SUNY Korea
   interests: 3D vision · Visual localization · Connected robotics
   link: https://frameau.xyz
+- name: Oleksii Nasypanyi
+  group: PhD Student
+  role: PhD Student
+  joined: Fall 2024
+  interests: Visual localization · Privacy · Multi-view geometry
+  image: /assets/images/team/oleksii-nasypanyi-placeholder.jpg
+  image_alt: Playful illustrated placeholder portrait for Oleksii Nasypanyi
+- name: Jaemin Cho
+  group: Master Student
+  role: Master's Student
+  joined: Fall 2024
+  interests: 3D vision · Visual learning · Spatial intelligence
+  image: /assets/images/team/jaemin-cho-placeholder.jpg
+  image_alt: Playful illustrated placeholder portrait for Jaemin Cho
+- name: Daniel Kim
+  group: Master Student
+  role: Master's Student
+  joined: Fall 2026
+  interests: Computer vision · Robotics · Spatial intelligence
+  image: /assets/images/team/daniel-kim-placeholder.jpg
+  image_alt: Playful illustrated placeholder portrait for Daniel Kim

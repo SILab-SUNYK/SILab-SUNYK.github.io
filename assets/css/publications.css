@@ -1,5 +1,6 @@
 .paper-list > a, .paper-list > a.has-paper-image { grid-template-columns: 190px 1fr 28px; align-items: start; }
 .archive-paper, .archive-paper.has-paper-image { grid-template-columns: 190px 1fr 30px; align-items: start; }
+.archive-paper[hidden], .year-block[hidden] { display: none !important; }
 .paper-meta { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
 .paper-meta > span { font: 8px var(--mono); color: var(--green); text-transform: uppercase; }
 .paper-meta > span b { display: block; color: var(--orange); margin-top: 8px; }
