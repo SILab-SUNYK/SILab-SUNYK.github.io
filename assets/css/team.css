@@ -18,6 +18,7 @@
   height: 100%;
   display: block;
   object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .person h3 a:hover {
