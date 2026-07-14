@@ -7,5 +7,5 @@ research:
     image_alt: "Scene-coordinate regression privacy reconstruction"
   - image: /assets/images/home/multi_Car_loca.gif
     image_alt: "Multiple connected cars collaborating on visual localization"
-  - image: /assets/images/home/visual-learning.jpg
-    image_alt: "Visual feature matching across different driving conditions"
+  - image: /assets/images/home/Video_N325b_cctv.gif
+    image_alt: "Visual learning from multi-camera CCTV footage"
