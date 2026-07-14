@@ -5,7 +5,7 @@ hero:
 research:
   - image: /assets/images/home/3d-vision-localization.jpg
     image_alt: "Indoor scene reconstructed as depth maps and a 3D point cloud"
-  - image: /assets/images/home/connected-robotics.jpg
-    image_alt: "Mobile robots sharing a common 3D map"
+  - image: /assets/images/home/multi_Car_loca.gif
+    image_alt: "Multiple connected cars collaborating on visual localization"
   - image: /assets/images/home/visual-learning.jpg
     image_alt: "Visual feature matching across different driving conditions"
