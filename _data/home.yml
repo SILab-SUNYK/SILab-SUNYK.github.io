@@ -3,8 +3,8 @@ hero:
   image_alt: "3D point-cloud reconstruction with camera trajectories"
 
 research:
-  - image: /assets/images/home/3d-vision-localization.jpg
-    image_alt: "Indoor scene reconstructed as depth maps and a 3D point cloud"
+  - image: /assets/images/publications/eccv-2026.gif
+    image_alt: "Scene-coordinate regression privacy reconstruction"
   - image: /assets/images/home/multi_Car_loca.gif
     image_alt: "Multiple connected cars collaborating on visual localization"
   - image: /assets/images/home/visual-learning.jpg
