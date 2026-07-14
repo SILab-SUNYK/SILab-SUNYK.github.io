@@ -5,6 +5,8 @@
   authors: Y. Cheon, A. Balasubramanian, F. Rameau
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:a0OBvERweLwC
   venue_full: International Conference on Pattern Recognition
+  image: "/assets/images/publications/dual-foundation-models-for-unsupervised-domain-adaptation.png"
+  image_alt: "Illustration for Dual-Foundation Models for Unsupervised Domain Adaptation"
 - year: 2026
   type: Conference
   venue: 3DV
@@ -12,15 +14,17 @@
   authors: O. Nasypanyi, F. Rameau
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:yD5IFk8b50cC
   venue_full: International Conference on 3D Vision
+  image: "/assets/images/publications/pixel-accurate-epipolar-guided-matching.png"
+  image_alt: "Illustration for Pixel-Accurate Epipolar Guided Matching"
 - year: 2026
   type: Conference
   venue: ECCV
   title: 'Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression'
   authors: O. Nasypanyi, J. Cho, U. Ozbulak, B. Kang, F. Rameau
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:pyW8ca7W8N0C
-  image: "/assets/images/publications/eccv-2026.gif"
-  image_alt: Scene-coordinate regression privacy reconstruction
   venue_full: European Conference on Computer Vision
+  image: "/assets/images/publications/eccv-2026.gif"
+  image_alt: "Illustration for Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression"
 - year: 2026
   type: Journal
   venue: TMLR
@@ -29,6 +33,8 @@
     Rameau, U. Ozbulak
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:D03iK_w7-QYC
   venue_full: Transactions on Machine Learning Research
+  image: "/assets/images/publications/token-based-detection-of-spurious-correlations-in-vision-transformers.png"
+  image_alt: "Illustration for Token-Based Detection of Spurious Correlations in Vision Transformers"
 - year: 2025
   type: Conference
   venue: IV
@@ -36,6 +42,8 @@
   authors: D Rossi, P Vasseur, F Morbidi, C Demonceaux, F Rameau
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:dfsIfKJdRG4C
   venue_full: IEEE Intelligent Vehicles Symposium
+  image: "/assets/images/publications/event-aware-distilled-detr-for-object-detection-in-an-automotive-context.png"
+  image_alt: "Illustration for Event-aware distilled detr for object detection in an automotive context"
 - year: 2025
   type: Conference
   venue: ICONIP
@@ -44,6 +52,8 @@
   authors: J Yun, S Choi, F Rameau, B Kang, Z Fu
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:3s1wT3WcHBgC
   venue_full: International Conference on Neural Information Processing
+  image: "/assets/images/publications/revisiting-16-bit-neural-network-training-a-practical-approach-for-resource-limited-learning.png"
+  image_alt: "Illustration for Revisiting 16-bit neural network training: A practical approach for resource-limited learning"
 - year: 2025
   type: Journal
   venue: T-ITS
@@ -51,6 +61,8 @@
   authors: J Shin, H Jeong, F Rameau, D Kum
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:lSLTfruPkqcC
   venue_full: IEEE Transactions on Intelligent Transportation Systems
+  image: "/assets/images/publications/instagram-instance-level-graph-modeling-for-vectorized-hd-map-learning.png"
+  image_alt: "Illustration for Instagram: Instance-level graph modeling for vectorized hd map learning"
 - year: 2025
   type: Preprint
   venue: arXiv
@@ -67,6 +79,8 @@
   authors: H Jeong, J Shin, F Rameau, D Kum
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:ZHo1McVdvXMC
   venue_full: IEEE Robotics and Automation Letters
+  image: "/assets/images/publications/multi-modal-place-recognition-via-vectorized-hd-maps-and-images-fusion-for-autonomous-driving.png"
+  image_alt: "Illustration for Multi-modal place recognition via vectorized HD maps and images fusion for autonomous driving"
 - year: 2024
   type: Preprint
   venue: arXiv
@@ -83,6 +97,8 @@
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:4OULZ7Gr8RgC
   venue_full: Deep-Breath Workshop on AI and Imaging for Diagnostic and Treatment
     Challenges in Breast Care
+  image: "/assets/images/publications/exploring-patient-data-requirements-in-training-effective-ai-models.png"
+  image_alt: "Illustration for Exploring patient data requirements in training effective ai models for mri-based breast cancer classification"
 - year: 2023
   type: Journal
   venue: TPAMI
@@ -90,6 +106,8 @@
   authors: Y Hold-Geoffroy, D Piché-Meunier, K Sunkavalli, JC Bazin, F Rameau, ...
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:ldfaerwXgEUC
   venue_full: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  image: "/assets/images/publications/a-perceptual-measure-for-deep-single-image-camera-and-lens-calibration.png"
+  image_alt: "Illustration for A perceptual measure for deep single image camera and lens calibration"
 - year: 2023
   type: Journal
   venue: MVA
@@ -97,6 +115,8 @@
   authors: F Rameau, J Choe, F Pan, S Lee, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:pqnbT2bcN3wC
   venue_full: Machine Vision and Applications
+  image: "/assets/images/publications/cctv-calib-a-toolbox-to-calibrate-surveillance-cameras-around-the-globe.png"
+  image_alt: "Illustration for CCTV-Calib: a toolbox to calibrate surveillance cameras around the globe"
 - year: 2023
   type: Preprint
   venue: arXiv
@@ -106,6 +126,8 @@
     ...
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:2P1L_qKh6hAC
   venue_full: arXiv preprint arXiv:2306.06211
+  image: "/assets/images/publications/a-survey-on-segment-anything-model-sam-vision-foundation-model-meets-prompt-engineering.png"
+  image_alt: "Illustration for A survey on segment anything model (sam): Vision foundation model meets prompt engineering"
 - year: 2023
   type: Preprint
   venue: arXiv
@@ -120,6 +142,8 @@
   authors: C Li, C Zhang, J Cho, A Waghwase, LH Lee, F Rameau, Y Yang, SH Bae, ...
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:70eg2SAEIzsC
   venue_full: arXiv preprint arXiv:2305.06131
+  image: "/assets/images/publications/generative-ai-meets-3d-a-survey-on-text-to-3d-in-aigc-era.png"
+  image_alt: "Illustration for Generative ai meets 3d: A survey on text-to-3d in aigc era"
 - year: 2022
   type: Conference
   venue: ECCV
@@ -127,6 +151,8 @@
   authors: J Choe, C Park, F Rameau, J Park, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:BqipwSGYUEgC
   venue_full: European Conference on Computer Vision
+  image: "/assets/images/publications/pointmixer-mlp-mixer-for-point-cloud-understanding.png"
+  image_alt: "Illustration for Pointmixer: Mlp-mixer for point cloud understanding"
 - year: 2022
   type: Journal
   venue: CVIU
@@ -134,6 +160,8 @@
   authors: F Rameau, J Park, O Bailo, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:O3NaXMp0MMsC
   venue_full: Computer Vision and Image Understanding
+  image: "/assets/images/publications/mc-calib-a-generic-and-robust-calibration-toolbox-for-multi-camera-systems.png"
+  image_alt: "Illustration for MC-Calib: A generic and robust calibration toolbox for multi-camera systems"
 - year: 2022
   type: Journal
   venue: IJCV
@@ -141,6 +169,8 @@
   authors: F Rameau, O Bailo, J Park, K Joo, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:GnPB-g6toBAC
   venue_full: International Journal of Computer Vision
+  image: "/assets/images/publications/real-time-multi-car-localization-and-see-through-system.png"
+  image_alt: "Illustration for Real-time multi-car localization and see-through system"
 - year: 2022
   type: Journal
   venue: IJCV
@@ -149,6 +179,8 @@
   authors: S Lee, F Rameau, S Im, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:J_g5lzvAfSwC
   venue_full: International Journal of Computer Vision
+  image: "/assets/images/publications/self-supervised-monocular-depth-and-motion-learning-in-dynamic-scenes-semantic-prior-to-rescue.png"
+  image_alt: "Illustration for Self-supervised monocular depth and motion learning in dynamic scenes: Semantic prior to rescue"
 - year: 2022
   type: Preprint
   venue: arXiv
@@ -171,6 +203,8 @@
   authors: S Lee, F Rameau, F Pan, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:blknAaTinKkC
   venue_full: IEEE/CVF International Conference on Computer Vision
+  image: "/assets/images/publications/attentive-and-contrastive-learning-for-joint-depth-and-motion-field-estimation.png"
+  image_alt: "Illustration for Attentive and contrastive learning for joint depth and motion field estimation"
 - year: 2021
   type: Conference
   venue: ICLR
@@ -178,6 +212,8 @@
   authors: J Choe, B Joung, F Rameau, J Park, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:YFjsv_pBGBYC
   venue_full: International Conference on Learning Representations
+  image: "/assets/images/publications/deep-point-cloud-reconstruction.png"
+  image_alt: "Illustration for Deep point cloud reconstruction"
 - year: 2021
   type: Conference
   venue: AAAI
@@ -185,6 +221,8 @@
   authors: DM Argaw, J Kim, F Rameau, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:HDshCWvjkbEC
   venue_full: AAAI Conference on Artificial Intelligence
+  image: "/assets/images/publications/motion-blurred-video-interpolation-and-extrapolation.png"
+  image_alt: "Illustration for Motion-blurred video interpolation and extrapolation"
 - year: 2021
   type: Conference
   venue: AAAI
@@ -192,6 +230,8 @@
   authors: DM Argaw, J Kim, F Rameau, JW Cho, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:_Qo2XoVZTnwC
   venue_full: AAAI Conference on Artificial Intelligence
+  image: "/assets/images/publications/optical-flow-estimation-from-a-single-motion-blurred-image.png"
+  image_alt: "Illustration for Optical flow estimation from a single motion-blurred image"
 - year: 2021
   type: Conference
   venue: WACV
@@ -199,6 +239,8 @@
   authors: C Zhang, P Benz, DM Argaw, S Lee, J Kim, F Rameau, JC Bazin, ...
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:hFOr9nPyWt4C
   venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision
+  image: "/assets/images/publications/resnet-or-densenet-introducing-dense-shortcuts-to-resnet.png"
+  image_alt: "Illustration for Resnet or densenet? introducing dense shortcuts to resnet"
 - year: 2021
   type: Conference
   venue: CVPR
@@ -206,6 +248,8 @@
   authors: DM Argaw, J Kim, F Rameau, C Zhang, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:ZeXyd9-uunAC
   venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  image: "/assets/images/publications/restoration-of-video-frames-from-a-single-blurred-image-with-motion-understanding.png"
+  image_alt: "Illustration for Restoration of video frames from a single blurred image with motion understanding"
 - year: 2021
   type: Conference
   venue: ICRA
@@ -213,6 +257,8 @@
   authors: J Choe, K Joo, F Rameau, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:bEWYMUwI8FkC
   venue_full: IEEE International Conference on Robotics and Automation
+  image: "/assets/images/publications/stereo-object-matching-network.png"
+  image_alt: "Illustration for Stereo object matching network"
 - year: 2021
   type: Conference
   venue: ICCV
@@ -220,6 +266,8 @@
   authors: J Choe, S Im, F Rameau, M Kang, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:JV2RwH3_ST0C
   venue_full: IEEE/CVF International Conference on Computer Vision
+  image: "/assets/images/publications/volumefusion-deep-depth-fusion-for-3d-scene-reconstruction.png"
+  image_alt: "Illustration for Volumefusion: Deep depth fusion for 3d scene reconstruction"
 - year: 2021
   type: Journal
   venue: TPAMI
@@ -227,6 +275,8 @@
   authors: HG Jeon, S Im, BU Lee, F Rameau, DG Choi, J Oh, IS Kweon, M Hebert
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:M3NEmzRMIkIC
   venue_full: IEEE Transactions on Pattern Analysis and Machine Intelligence
+  image: "/assets/images/publications/a-large-scale-virtual-dataset-and-egocentric-localization-for-disaster-responses.png"
+  image_alt: "Illustration for A large-scale virtual dataset and egocentric localization for disaster responses"
 - year: 2021
   type: Patent
   venue: US Patent
@@ -234,6 +284,8 @@
   authors: JC Bazin, O BOGDAN, V ECKSTEIN, F RAMEAU
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:QIV2ME_5wuYC
   venue_full: United States Patent 10,977,831
+  image: "/assets/images/publications/camera-calibration-method-and-apparatus-based-on-deep-learning.png"
+  image_alt: "Illustration for Camera calibration method and apparatus based on deep learning"
 - year: 2020
   type: Book Chapter
   venue: Book chapter
@@ -248,6 +300,8 @@
   authors: C Zhang, F Rameau, J Kim, DM Argaw, JC Bazin, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:9ZlFYXVOiuMC
   venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision
+  image: "/assets/images/publications/deepptz-deep-self-calibration-for-ptz-cameras.png"
+  image_alt: "Illustration for DeepPTZ: Deep Self-Calibration for PTZ Cameras"
 - year: 2020
   type: Conference
   venue: ICRA
@@ -255,6 +309,8 @@
   authors: K Joo, TH Oh, F Rameau, JC Bazin, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:L8Ckcad2t8MC
   venue_full: IEEE International Conference on Robotics and Automation
+  image: "/assets/images/publications/linear-rgb-d-slam-for-atlanta-world.png"
+  image_alt: "Illustration for Linear rgb-d slam for atlanta world"
 - year: 2020
   type: Conference
   venue: CVPR
@@ -262,6 +318,8 @@
   authors: F Pan, I Shin, F Rameau, S Lee, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:7PzlFSSx8tAC
   venue_full: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  image: "/assets/images/publications/unsupervised-intra-domain-adaptation-for-semantic-segmentation-through-self-supervision.png"
+  image_alt: "Illustration for Unsupervised Intra-domain Adaptation for Semantic Segmentation through Self-Supervision"
 - year: 2019
   type: Conference
   venue: IROS
@@ -270,6 +328,8 @@
   authors: U Shin, J Park, G Shim, F Rameau, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:_kc_bZDykSQC
   venue_full: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  image: "/assets/images/publications/camera-exposure-control-for-robust-robot-vision-with-noise-aware-image-quality-assessment.png"
+  image_alt: "Illustration for Camera exposure control for robust robot vision with noise-aware image quality assessment"
 - year: 2019
   type: Conference
   venue: BMVC
@@ -277,6 +337,8 @@
   authors: C Zhang, F Rameau, S Lee, J Kim, P Benz, DM Argaw, JC Bazin, ...
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:4DMP91E08xMC
   venue_full: British Machine Vision Conference
+  image: "/assets/images/publications/revisiting-residual-networks-with-nonlinear-shortcuts.png"
+  image_alt: "Illustration for Revisiting Residual Networks with Nonlinear Shortcuts"
 - year: 2019
   type: Conference
   venue: RSS
@@ -284,6 +346,8 @@
   authors: J Choe, K Joo, F Rameau, G Shim, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:YOwf2qJgpHMC
   venue_full: 'Robotics: Science and Systems'
+  image: "/assets/images/publications/segment2regress-monocular-3d-vehicle-localization-in-two-stages.png"
+  image_alt: "Illustration for Segment2Regress: Monocular 3D Vehicle Localization in Two Stages"
 - year: 2019
   type: Conference
   venue: IROS
@@ -292,6 +356,8 @@
   authors: J Park, U Shin, G Shim, K Joo, F Rameau, J Kim, DG Choi, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:4TOpqqG69KYC
   venue_full: IEEE/RSJ International Conference on Intelligent Robots and Systems
+  image: "/assets/images/publications/vehicular-multi-camera-sensor-system-for-automated-visual-inspection-of-electric-power-distribution.png"
+  image_alt: "Illustration for Vehicular multi-camera sensor system for automated visual inspection of electric power distribution equipment"
 - year: 2019
   type: Conference
   venue: ACM MM
@@ -300,6 +366,8 @@
   authors: D Cho, Y Jung, F Rameau, D Kim, S Woo, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:Wp0gIr-vW9MC
   venue_full: ACM International Conference on Multimedia
+  image: "/assets/images/publications/video-retargeting-trade-off-between-content-preservation-and-spatio-temporal-consistency.png"
+  image_alt: "Illustration for Video Retargeting: trade-off between content preservation and spatio-temporal consistency"
 - year: 2019
   type: Journal
   venue: TASLP
@@ -307,6 +375,8 @@
   authors: T Parshakova, F Rameau, A Serdega, IS Kweon, DS Kim
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:qxL8FJ1GzNcC
   venue_full: IEEE/ACM Transactions on Audio, Speech, and Language Processing
+  image: "/assets/images/publications/latent-question-interpretation-through-variational-adaptation.png"
+  image_alt: "Illustration for Latent question interpretation through variational adaptation"
 - year: 2018
   type: Conference
   venue: CVMP
@@ -315,6 +385,8 @@
   authors: O Bogdan, V Eckstein, F Rameau, JC Bazin
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:ULOm3_A8WrAC
   venue_full: ACM SIGGRAPH European Conference on Visual Media Production
+  image: "/assets/images/publications/deepcalib-a-deep-learning-approach-for-automatic-intrinsic-calibration-of-wide-field-of-view-cameras.png"
+  image_alt: "Illustration for DeepCalib: A deep learning approach for automatic intrinsic calibration of wide field-of-view cameras"
 - year: 2018
   type: Journal
   venue: PRL
@@ -323,6 +395,8 @@
   authors: O Bailo, F Rameau, K Joo, J Park, O Bogdan, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:KlAtU1dfN6UC
   venue_full: Pattern Recognition Letters
+  image: "/assets/images/publications/efficient-adaptive-non-maximal-suppression-algorithms-for-homogeneous-spatial-keypoint-distribution.png"
+  image_alt: "Illustration for Efficient adaptive non-maximal suppression algorithms for homogeneous spatial keypoint distribution"
 - year: 2018
   type: Workshop
   venue: IW-FCV
@@ -338,6 +412,8 @@
   authors: O Bogdan, O Yurchenko, O Bailo, F Rameau, D Yoo, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:8k81kl-MbHgC
   venue_full: Pacific-Rim Symposium on Image and Video Technology
+  image: "/assets/images/publications/intelligent-assistant-for-people-with-low-vision-abilities.png"
+  image_alt: "Illustration for Intelligent Assistant for People with Low Vision Abilities"
 - year: 2017
   type: Conference
   venue: ICCV
@@ -346,6 +422,8 @@
   authors: J Shin Yoon, F Rameau, J Kim, S Lee, S Shin, I So Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:0EnyYjriUFMC
   venue_full: IEEE/CVF International Conference on Computer Vision
+  image: "/assets/images/publications/pixel-level-matching-for-video-object-segmentation-using-convolutional-neural-networks.png"
+  image_alt: "Illustration for Pixel-level matching for video object segmentation using convolutional neural networks"
 - year: 2017
   type: Conference
   venue: WACV
@@ -354,6 +432,8 @@
   authors: O Bailo, S Lee, F Rameau, JS Yoon, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:hqOjcs7Dif8C
   venue_full: IEEE/CVF Winter Conference on Applications of Computer Vision
+  image: "/assets/images/publications/robust-road-marking-detection-and-recognition-using-density-based-grouping-and-machine-learning-tech.png"
+  image_alt: "Illustration for Robust road marking detection and recognition using density-based grouping and machine learning techniques"
 - year: 2017
   type: Preprint
   venue: arXiv
@@ -361,6 +441,8 @@
   authors: O Bailo, F Rameau, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:3fE2CSJIrl8C
   venue_full: arXiv preprint arXiv:1710.07434
+  image: "/assets/images/publications/light-weight-place-recognition-and-loop-detection-using-road-markings.png"
+  image_alt: "Illustration for Light-weight place recognition and loop detection using road markings"
 - year: 2016
   type: Conference
   venue: ECCV
@@ -368,6 +450,8 @@
   authors: F Rameau, H Ha, K Joo, J Choi, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:UebtZRa9Y70C
   venue_full: European Conference on Computer Vision
+  image: "/assets/images/publications/a-real-time-vehicular-vision-system-to-seamlessly-see-through-cars.png"
+  image_alt: "Illustration for A real-time vehicular vision system to seamlessly see-through cars"
 - year: 2016
   type: Conference
   venue: ECCV
@@ -375,6 +459,8 @@
   authors: S Im, H Ha, F Rameau, HG Jeon, G Choe, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:roLk4NBRz8UC
   venue_full: European Conference on Computer Vision
+  image: "/assets/images/publications/all-around-depth-from-small-motion-with-a-spherical-panoramic-camera.png"
+  image_alt: "Illustration for All-around depth from small motion with a spherical panoramic camera"
 - year: 2016
   type: Conference
   venue: IV
@@ -382,6 +468,8 @@
   authors: JS Yoon, K Park, S Hwang, N Kim, Y Choi, F Rameau, I so Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:_FxGoFyzp5QC
   venue_full: IEEE Intelligent Vehicles Symposium
+  image: "/assets/images/publications/thermal-infrared-based-drivable-region-detection.png"
+  image_alt: "Illustration for Thermal-infrared based drivable region detection"
 - year: 2016
   type: Journal
   venue: TVCG
@@ -389,6 +477,8 @@
   authors: F Rameau, H Ha, K Joo, J Choi, K Park, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:LkGwnXOMwfcC
   venue_full: IEEE Transactions on Visualization and Computer Graphics
+  image: "/assets/images/publications/a-real-time-augmented-reality-system-to-see-through-cars.png"
+  image_alt: "Illustration for A real-time augmented reality system to see-through cars"
 - year: 2015
   type: Conference
   venue: PSIVT
@@ -396,6 +486,8 @@
   authors: H Ha, F Rameau, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:WF5omc3nYNoC
   venue_full: Pacific-Rim Symposium on Image and Video Technology
+  image: "/assets/images/publications/6-dof-direct-homography-tracking-with-extended-kalman-filter.png"
+  image_alt: "Illustration for 6-DOF direct homography tracking with extended Kalman filter"
 - year: 2015
   type: Conference
   venue: URAI
@@ -403,6 +495,8 @@
   authors: K Park, H Ha, F Rameau, IS Kweon
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:YsMSGLbcyi4C
   venue_full: International Conference on Ubiquitous Robots and Ambient Intelligence
+  image: "/assets/images/publications/fused-robot-pose-estimation-using-embedded-and-external-cameras.png"
+  image_alt: "Illustration for Fused robot pose estimation using embedded and external cameras"
 - year: 2015
   type: Conference
   venue: URAI
@@ -410,6 +504,8 @@
   authors: F Rameau, D Sidibé, C Demonceaux, D Fofi
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:eQOLeE2rZwMC
   venue_full: International Conference on Ubiquitous Robots and Ambient Intelligence
+  image: "/assets/images/publications/structure-from-motion-using-a-hybrid-stereo-vision-system.png"
+  image_alt: "Illustration for Structure from motion using a hybrid stereo-vision system"
 - year: 2014
   type: Conference
   venue: VISAPP
@@ -417,6 +513,8 @@
   authors: F Rameau, C Demonceaux, D Sidibé, D Fofi
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:qjMakFHDy7sC
   venue_full: International Conference on Computer Vision Theory and Applications
+  image: "/assets/images/publications/control-of-a-ptz-camera-in-a-hybrid-vision-system.png"
+  image_alt: "Illustration for Control of a PTZ camera in a hybrid vision system"
 - year: 2014
   type: Thesis
   venue: PhD Thesis
@@ -439,6 +537,8 @@
   authors: F Rameau, A Habed, C Demonceaux, D Sidibé, D Fofi
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:9yKSN-GCB0IC
   venue_full: Asian Conference on Computer Vision
+  image: "/assets/images/publications/self-calibration-of-a-ptz-camera-using-new-lmi-constraints.png"
+  image_alt: "Illustration for Self-calibration of a PTZ camera using new LMI constraints"
 - year: 2012
   type: Workshop
   venue: RFIA
@@ -446,6 +546,8 @@
   authors: F Rameau, D Sidibé, C Demonceaux, D Fofi
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:d1gkVwhDpl0C
   venue_full: Reconnaissance des Formes, Image, Apprentissage et Perception
+  image: "/assets/images/publications/une-approche-performante-de-suivi-visuel-pour-les-cam-ras-catadioptriques.png"
+  image_alt: "Illustration for Une approche performante de suivi visuel pour les caméras catadioptriques"
 - year: 2011
   type: Journal
   venue: EL
@@ -453,6 +555,8 @@
   authors: F Rameau, DD Sidibé, C Demonceaux, D Fofi
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:u5HHmVD_uO8C
   venue_full: Electronics Letters
+  image: "/assets/images/publications/visual-tracking-with-omnidirectional-cameras-an-efficient-approach.png"
+  image_alt: "Illustration for Visual tracking with omnidirectional cameras: an efficient approach"
 - year: 2011
   type: Workshop
   venue: ICCV-W
@@ -460,3 +564,5 @@
   authors: F Rameau, D Sidibé, C Demonceaux, D Fofi
   link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&cstart=20&pagesize=80&citation_for_view=Hfx_pykAAAAJ:u-x6o8ySG0sC
   venue_full: IEEE/CVF International Conference on Computer Vision Workshop
+  image: "/assets/images/publications/tracking-moving-objects-with-a-catadioptric-sensor-using-particle-filter.png"
+  image_alt: "Illustration for Tracking moving objects with a catadioptric sensor using particle filter"
