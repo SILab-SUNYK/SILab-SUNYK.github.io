@@ -24,7 +24,7 @@ def wrap(title, body)
   <<~HTML
   <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>#{title} · SIL</title><script>try{if(localStorage.getItem('sil-theme')==='dark')document.documentElement.dataset.theme='dark'}catch(e){}</script><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/publications.css"><link rel="stylesheet" href="/assets/css/theme.css"><link rel="stylesheet" href="/assets/css/home-images.css"><link rel="stylesheet" href="/assets/css/news.css"><link rel="stylesheet" href="/assets/css/team.css"></head><body>
   #{header}<main>#{body}</main>
-  <footer class="site-footer wrap"><div><b>SIL</b><span>Spatial Intelligence Lab</span></div><p>Machines that understand space.</p><div><a href="mailto:francoisbernar.rameau@stonybrook.edu">Contact ↗</a><small>SUNY Korea · Stony Brook University</small></div></footer><script src="/assets/js/theme.js"></script><script src="/assets/js/news-carousel.js"></script></body></html>
+  <footer class="site-footer wrap"><div><b>SIL</b><span>Spatial Intelligence Lab</span><div class="footer-logos"><img src="/assets/images/partners/sunyk_logo.png" alt="SUNY Korea"><img src="/assets/images/partners/sbuLogo.png" alt="Stony Brook University"></div></div><p>Machines that understand space.</p><div><a href="mailto:francoisbernar.rameau@stonybrook.edu">Contact ↗</a><small>SUNY Korea · Stony Brook University</small></div></footer><script src="/assets/js/theme.js"></script><script src="/assets/js/news-carousel.js"></script></body></html>
   HTML
 end
 
