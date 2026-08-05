@@ -1,3 +1,11 @@
+- date: "2026-08-05"
+  display_date: "05 AUG 2026"
+  category: Recognition
+  title: "ECCV 2026 paper selected for a Long Oral"
+  details: "Our paper, ‘Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression,’ has been selected for a Long Oral presentation at ECCV 2026, placing it among approximately the top 2% of submissions. Congratulations to Oleksii Nasypanyi, Jaemin Cho, Utku Ozbulak, Bohyung Kang, and François Rameau!"
+  image: /assets/images/news/eccv-2026.png
+  image_alt: "ECCV 2026 Long Oral recognition"
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:pyW8ca7W8N0C
 - date: "2026-06-19"
   display_date: "19 JUN 2026"
   category: Publication
