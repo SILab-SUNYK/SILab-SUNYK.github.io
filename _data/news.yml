@@ -1,3 +1,10 @@
+- date: "2026-08-08"
+  display_date: "08 AUG 2026"
+  category: Publication
+  title: "3DiffGS accepted to BMVC 2026"
+  details: "Our paper, ‘3DiffGS: 3D Gaussian Splats from Unposed 2D Images using Diffusion Models,’ has been accepted to BMVC 2026. Congratulations to Abhigyan and the entire NAAMII team behind this project!"
+  image: /assets/images/news/bmvc-2026.png
+  image_alt: "BMVC 2026 logo"
 - date: "2026-08-05"
   display_date: "05 AUG 2026"
   category: Recognition
