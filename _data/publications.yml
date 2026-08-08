@@ -10,6 +10,15 @@
   image_alt: "Overview of the 3DiffGS method for reconstructing 3D Gaussian splats from unposed images"
 - year: 2026
   type: Conference
+  venue: ECCV
+  title: 'Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression'
+  authors: O. Nasypanyi, J. Cho, U. Ozbulak, B. Kang, F. Rameau
+  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:pyW8ca7W8N0C
+  venue_full: European Conference on Computer Vision
+  image: "/assets/images/publications/eccv-2026.gif"
+  image_alt: "Illustration for Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression"
+- year: 2026
+  type: Conference
   venue: ICPR
   title: Dual-Foundation Models for Unsupervised Domain Adaptation
   authors: Y. Cheon, A. Balasubramanian, F. Rameau
@@ -26,15 +35,6 @@
   venue_full: International Conference on 3D Vision
   image: "/assets/images/publications/pixel-accurate-epipolar-guided-matching.png"
   image_alt: "Illustration for Pixel-Accurate Epipolar Guided Matching"
-- year: 2026
-  type: Conference
-  venue: ECCV
-  title: 'Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression'
-  authors: O. Nasypanyi, J. Cho, U. Ozbulak, B. Kang, F. Rameau
-  link: https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=Hfx_pykAAAAJ&citation_for_view=Hfx_pykAAAAJ:pyW8ca7W8N0C
-  venue_full: European Conference on Computer Vision
-  image: "/assets/images/publications/eccv-2026.gif"
-  image_alt: "Illustration for Seeing Through the Weights: Privacy Leakage in Scene Coordinate Regression"
 - year: 2026
   type: Journal
   venue: TMLR
