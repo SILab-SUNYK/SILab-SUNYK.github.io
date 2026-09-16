@@ -3,7 +3,7 @@
   type: Conference
   venue: BMVC
   title: '3DiffGS: 3D Gaussian Splats from Unposed 2D Images using Diffusion Models'
-  authors: A. Bhusal, B. Koju, D.P.Paudel, D. Rameau
+  authors: A. Bhusal, B. Koju, D.P.Paudel, F. Rameau
   link: https://bmvc2026.bmva.org/
   venue_full: British Machine Vision Conference
   image: "/assets/images/publications/3diffgs-3d-gaussian-splats-from-unposed-2d-images-using-diffusion-models.png"
