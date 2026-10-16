@@ -1,3 +1,11 @@
+- date: "2026-10-16"
+  display_date: "16 OCT 2026"
+  category: Publication
+  title: "Ray-SCR accepted to WACV 2027"
+  details: "Our paper, ‘Ray-SCR: Generalizing Scene Coordinate Regression Across Camera Models,’ has been accepted to WACV 2027. Congratulations to Jaemin and Oleksii!"
+  image: /assets/images/news/wacv-2027.png
+  image_alt: "WACV 2027 logo"
+  link: https://wacv.thecvf.com/Conferences/2027/index.html
 - date: "2026-08-08"
   display_date: "08 AUG 2026"
   category: Publication
